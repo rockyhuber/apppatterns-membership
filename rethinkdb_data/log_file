@@ -1,0 +1,504 @@
+2017-04-13T14:27:23.177438000 40.034494s notice: Recursively removing directory /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/tmp
+2017-04-13T14:27:23.182502000 40.039562s notice: Initializing directory /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data
+2017-04-13T14:27:23.182930000 40.039985s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data' did not already exist or is empty.)
+2017-04-13T14:27:23.183302000 40.040358s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-04-13T14:27:23.191547000 40.048616s notice: Running on Darwin 16.1.0 x86_64
+2017-04-13T14:27:23.191613000 40.048668s notice: Loading data from directory /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data
+2017-04-13T14:27:23.348748000 40.205803s info: Automatically using cache size of 116 MB
+2017-04-13T14:27:23.351051000 40.208107s notice: Listening for intracluster connections on port 29015
+2017-04-13T14:27:23.362257000 40.219312s notice: Listening for client driver connections on port 28015
+2017-04-13T14:27:23.362448000 40.219503s notice: Listening for administrative HTTP connections on port 8080
+2017-04-13T14:27:23.362451000 40.219507s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-13T14:27:23.362456000 40.219511s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-13T14:27:23.362458000 40.219513s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-13T14:27:23.362462000 40.219517s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-13T14:27:23.362488000 40.219544s notice: Server ready, "Roberts_MacBook_Pro_local_2jn" 97712f13-6c36-4d55-9f9e-a3f2a4198770
+2017-04-13T15:28:21.323456000 3573.510303s info: Table 27e6e3b2-24ce-4d7a-a0cf-7c9448946a0d: Starting a new Raft election for term 1.
+2017-04-13T15:28:21.326748000 3573.513594s info: Table 27e6e3b2-24ce-4d7a-a0cf-7c9448946a0d: Added replica on this server.
+2017-04-13T15:28:21.359698000 3573.546544s info: Table 27e6e3b2-24ce-4d7a-a0cf-7c9448946a0d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:29:31.052106000 3643.240052s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/27e6e3b2-24ce-4d7a-a0cf-7c9448946a0d
+2017-04-13T15:29:31.052118000 3643.240063s info: Table 27e6e3b2-24ce-4d7a-a0cf-7c9448946a0d: Deleted the table.
+2017-04-13T15:29:41.634470000 3653.822600s info: Table 825ab295-8c49-4d99-a5f3-56bb43542a50: Starting a new Raft election for term 1.
+2017-04-13T15:29:41.634625000 3653.822754s info: Table 825ab295-8c49-4d99-a5f3-56bb43542a50: Added replica on this server.
+2017-04-13T15:29:41.641461000 3653.829590s info: Table 3ef4062f-59f8-47b1-8646-95ed5653557c: Starting a new Raft election for term 1.
+2017-04-13T15:29:41.641594000 3653.829723s info: Table 3ef4062f-59f8-47b1-8646-95ed5653557c: Added replica on this server.
+2017-04-13T15:29:41.670459000 3653.858588s info: Table 889d335e-2950-43bc-813e-f20bb5e94848: Starting a new Raft election for term 1.
+2017-04-13T15:29:41.670600000 3653.858729s info: Table 889d335e-2950-43bc-813e-f20bb5e94848: Added replica on this server.
+2017-04-13T15:29:41.690783000 3653.878913s info: Table 825ab295-8c49-4d99-a5f3-56bb43542a50: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:29:41.701581000 3653.889710s info: Table 3ef4062f-59f8-47b1-8646-95ed5653557c: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:29:41.701750000 3653.889880s info: Table 889d335e-2950-43bc-813e-f20bb5e94848: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:30:41.172768000 3713.361833s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/3ef4062f-59f8-47b1-8646-95ed5653557c
+2017-04-13T15:30:41.172777000 3713.361841s info: Table 3ef4062f-59f8-47b1-8646-95ed5653557c: Deleted the table.
+2017-04-13T15:30:41.408707000 3713.597771s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/825ab295-8c49-4d99-a5f3-56bb43542a50
+2017-04-13T15:30:41.408716000 3713.597780s info: Table 825ab295-8c49-4d99-a5f3-56bb43542a50: Deleted the table.
+2017-04-13T15:30:41.446724000 3713.635807s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/889d335e-2950-43bc-813e-f20bb5e94848
+2017-04-13T15:30:41.446736000 3713.635819s info: Table 889d335e-2950-43bc-813e-f20bb5e94848: Deleted the table.
+2017-04-13T15:32:52.687251000 3844.878406s info: Table 82de2c45-0e61-4b13-ac1e-736d8869b267: Starting a new Raft election for term 1.
+2017-04-13T15:32:52.687456000 3844.878611s info: Table 82de2c45-0e61-4b13-ac1e-736d8869b267: Added replica on this server.
+2017-04-13T15:32:52.696507000 3844.887663s info: Table 04a2b6f7-60db-4b7e-8873-cc84bf515286: Starting a new Raft election for term 1.
+2017-04-13T15:32:52.696655000 3844.887810s info: Table 04a2b6f7-60db-4b7e-8873-cc84bf515286: Added replica on this server.
+2017-04-13T15:32:52.704764000 3844.895920s info: Table bcdce3c7-123c-407b-b2c4-4558a51b46c7: Starting a new Raft election for term 1.
+2017-04-13T15:32:52.704915000 3844.896070s info: Table bcdce3c7-123c-407b-b2c4-4558a51b46c7: Added replica on this server.
+2017-04-13T15:32:52.725383000 3844.916558s info: Table 82de2c45-0e61-4b13-ac1e-736d8869b267: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:32:52.725469000 3844.916643s info: Table 04a2b6f7-60db-4b7e-8873-cc84bf515286: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:32:52.725562000 3844.916736s info: Table bcdce3c7-123c-407b-b2c4-4558a51b46c7: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:35:47.186782000 4018.347330s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/04a2b6f7-60db-4b7e-8873-cc84bf515286
+2017-04-13T15:35:47.186792000 4018.347340s info: Table 04a2b6f7-60db-4b7e-8873-cc84bf515286: Deleted the table.
+2017-04-13T15:35:47.236014000 4018.396563s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/82de2c45-0e61-4b13-ac1e-736d8869b267
+2017-04-13T15:35:47.236024000 4018.396573s info: Table 82de2c45-0e61-4b13-ac1e-736d8869b267: Deleted the table.
+2017-04-13T15:35:47.278828000 4018.439377s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/bcdce3c7-123c-407b-b2c4-4558a51b46c7
+2017-04-13T15:35:47.278860000 4018.439408s info: Table bcdce3c7-123c-407b-b2c4-4558a51b46c7: Deleted the table.
+2017-04-13T15:37:32.838879000 4124.001167s info: Table 3ae80e30-4352-4390-977c-e260ba570e14: Starting a new Raft election for term 1.
+2017-04-13T15:37:32.839078000 4124.001365s info: Table 3ae80e30-4352-4390-977c-e260ba570e14: Added replica on this server.
+2017-04-13T15:37:32.848902000 4124.011189s info: Table b5b4e7e6-accf-406c-a563-fa40c692f8e4: Starting a new Raft election for term 1.
+2017-04-13T15:37:32.849073000 4124.011361s info: Table b5b4e7e6-accf-406c-a563-fa40c692f8e4: Added replica on this server.
+2017-04-13T15:37:32.858646000 4124.020933s info: Table 62a2dc5d-e6d4-4409-8b7f-ad28614be9ce: Starting a new Raft election for term 1.
+2017-04-13T15:37:32.858753000 4124.021040s info: Table 62a2dc5d-e6d4-4409-8b7f-ad28614be9ce: Added replica on this server.
+2017-04-13T15:37:32.880578000 4124.042866s info: Table 3ae80e30-4352-4390-977c-e260ba570e14: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:37:32.890949000 4124.053237s info: Table b5b4e7e6-accf-406c-a563-fa40c692f8e4: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:37:32.891053000 4124.053341s info: Table 62a2dc5d-e6d4-4409-8b7f-ad28614be9ce: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:46:12.998874000 4644.169750s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/3ae80e30-4352-4390-977c-e260ba570e14
+2017-04-13T15:46:12.998883000 4644.169758s info: Table 3ae80e30-4352-4390-977c-e260ba570e14: Deleted the table.
+2017-04-13T15:46:13.079416000 4644.250291s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/62a2dc5d-e6d4-4409-8b7f-ad28614be9ce
+2017-04-13T15:46:13.079426000 4644.250301s info: Table 62a2dc5d-e6d4-4409-8b7f-ad28614be9ce: Deleted the table.
+2017-04-13T15:46:13.125045000 4644.295921s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/b5b4e7e6-accf-406c-a563-fa40c692f8e4
+2017-04-13T15:46:13.125057000 4644.295933s info: Table b5b4e7e6-accf-406c-a563-fa40c692f8e4: Deleted the table.
+2017-04-13T15:46:17.302788000 4648.473737s info: Table 03031787-626f-4303-8798-bec2b5bb5f2f: Starting a new Raft election for term 1.
+2017-04-13T15:46:17.302937000 4648.473886s info: Table 03031787-626f-4303-8798-bec2b5bb5f2f: Added replica on this server.
+2017-04-13T15:46:17.331911000 4648.502860s info: Table 664f1a38-987e-4693-a353-0b11368cb034: Starting a new Raft election for term 1.
+2017-04-13T15:46:17.332168000 4648.503116s info: Table 664f1a38-987e-4693-a353-0b11368cb034: Added replica on this server.
+2017-04-13T15:46:17.355830000 4648.526778s info: Table d09c72cb-12eb-4b75-8a57-8e7721a61d25: Starting a new Raft election for term 1.
+2017-04-13T15:46:17.355961000 4648.526910s info: Table d09c72cb-12eb-4b75-8a57-8e7721a61d25: Added replica on this server.
+2017-04-13T15:46:17.375916000 4648.546865s info: Table 03031787-626f-4303-8798-bec2b5bb5f2f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:46:17.386211000 4648.557159s info: Table 664f1a38-987e-4693-a353-0b11368cb034: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T15:46:17.386362000 4648.557311s info: Table d09c72cb-12eb-4b75-8a57-8e7721a61d25: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T16:53:02.961703000 8654.191404s info: Table 916ded46-8f76-4297-bb11-9c012cc77f39: Starting a new Raft election for term 1.
+2017-04-13T16:53:02.961901000 8654.191603s info: Table 916ded46-8f76-4297-bb11-9c012cc77f39: Added replica on this server.
+2017-04-13T16:53:02.982035000 8654.211736s info: Table 916ded46-8f76-4297-bb11-9c012cc77f39: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T16:53:40.607126000 8691.837288s info: Table 49db444e-1d8a-419e-af09-c7820ff87a19: Starting a new Raft election for term 1.
+2017-04-13T16:53:40.607295000 8691.837456s info: Table 49db444e-1d8a-419e-af09-c7820ff87a19: Added replica on this server.
+2017-04-13T16:53:40.628346000 8691.858508s info: Table 49db444e-1d8a-419e-af09-c7820ff87a19: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T17:59:20.314652000 10893.264075s info: Table 53083274-b562-41d1-a5f3-c736027ae7d8: Starting a new Raft election for term 1.
+2017-04-13T17:59:20.314860000 10893.264283s info: Table 53083274-b562-41d1-a5f3-c736027ae7d8: Added replica on this server.
+2017-04-13T17:59:20.335853000 10893.285276s info: Table 53083274-b562-41d1-a5f3-c736027ae7d8: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T17:59:21.054518000 10894.003959s info: Table e382ff4b-d413-4dbd-a554-f2eb2f226142: Starting a new Raft election for term 1.
+2017-04-13T17:59:21.054719000 10894.004160s info: Table e382ff4b-d413-4dbd-a554-f2eb2f226142: Added replica on this server.
+2017-04-13T17:59:21.077638000 10894.027079s info: Table e382ff4b-d413-4dbd-a554-f2eb2f226142: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T17:59:21.792351000 10894.741811s info: Table 83675b4e-2789-420b-b946-bd06b0597caf: Starting a new Raft election for term 1.
+2017-04-13T17:59:21.792541000 10894.742001s info: Table 83675b4e-2789-420b-b946-bd06b0597caf: Added replica on this server.
+2017-04-13T17:59:21.812434000 10894.761894s info: Table 83675b4e-2789-420b-b946-bd06b0597caf: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:14:04.751700000 11777.716129s info: Table 4ea72191-6d9c-4335-8471-e0d3ce10c8a0: Starting a new Raft election for term 1.
+2017-04-13T18:14:04.752058000 11777.716486s info: Table 4ea72191-6d9c-4335-8471-e0d3ce10c8a0: Added replica on this server.
+2017-04-13T18:14:04.775359000 11777.739787s info: Table 4ea72191-6d9c-4335-8471-e0d3ce10c8a0: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:20:12.057416000 12145.028025s info: Table 228186a4-7734-4d29-8bcc-0cb31f5c8961: Starting a new Raft election for term 1.
+2017-04-13T18:20:12.057541000 12145.028150s info: Table 228186a4-7734-4d29-8bcc-0cb31f5c8961: Added replica on this server.
+2017-04-13T18:20:12.068470000 12145.039080s info: Table ecfb86d3-1b02-43aa-a5fa-f96196c27324: Starting a new Raft election for term 1.
+2017-04-13T18:20:12.068723000 12145.039333s info: Table ecfb86d3-1b02-43aa-a5fa-f96196c27324: Added replica on this server.
+2017-04-13T18:20:12.078045000 12145.048671s info: Table 3bbbaa47-623f-4609-a760-8a120d428d34: Starting a new Raft election for term 1.
+2017-04-13T18:20:12.078186000 12145.048812s info: Table 3bbbaa47-623f-4609-a760-8a120d428d34: Added replica on this server.
+2017-04-13T18:20:12.101364000 12145.071991s info: Table 228186a4-7734-4d29-8bcc-0cb31f5c8961: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:20:12.112636000 12145.083263s info: Table ecfb86d3-1b02-43aa-a5fa-f96196c27324: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:20:12.112798000 12145.083425s info: Table 3bbbaa47-623f-4609-a760-8a120d428d34: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:20:24.950320000 12157.921131s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/03031787-626f-4303-8798-bec2b5bb5f2f
+2017-04-13T18:20:24.950331000 12157.921142s info: Table 03031787-626f-4303-8798-bec2b5bb5f2f: Deleted the table.
+2017-04-13T18:20:25.004772000 12157.975584s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/228186a4-7734-4d29-8bcc-0cb31f5c8961
+2017-04-13T18:20:25.004780000 12157.975591s info: Table 228186a4-7734-4d29-8bcc-0cb31f5c8961: Deleted the table.
+2017-04-13T18:20:25.047803000 12158.018615s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/3bbbaa47-623f-4609-a760-8a120d428d34
+2017-04-13T18:20:25.047812000 12158.018623s info: Table 3bbbaa47-623f-4609-a760-8a120d428d34: Deleted the table.
+2017-04-13T18:20:25.093838000 12158.064650s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/49db444e-1d8a-419e-af09-c7820ff87a19
+2017-04-13T18:20:25.093850000 12158.064661s info: Table 49db444e-1d8a-419e-af09-c7820ff87a19: Deleted the table.
+2017-04-13T18:20:25.138254000 12158.109083s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/4ea72191-6d9c-4335-8471-e0d3ce10c8a0
+2017-04-13T18:20:25.138263000 12158.109091s info: Table 4ea72191-6d9c-4335-8471-e0d3ce10c8a0: Deleted the table.
+2017-04-13T18:20:25.184009000 12158.154837s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/53083274-b562-41d1-a5f3-c736027ae7d8
+2017-04-13T18:20:25.184018000 12158.154846s info: Table 53083274-b562-41d1-a5f3-c736027ae7d8: Deleted the table.
+2017-04-13T18:20:25.283549000 12158.254378s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/664f1a38-987e-4693-a353-0b11368cb034
+2017-04-13T18:20:25.283560000 12158.254389s info: Table 664f1a38-987e-4693-a353-0b11368cb034: Deleted the table.
+2017-04-13T18:20:25.328623000 12158.299451s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/83675b4e-2789-420b-b946-bd06b0597caf
+2017-04-13T18:20:25.328631000 12158.299459s info: Table 83675b4e-2789-420b-b946-bd06b0597caf: Deleted the table.
+2017-04-13T18:20:25.372339000 12158.343168s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/916ded46-8f76-4297-bb11-9c012cc77f39
+2017-04-13T18:20:25.372349000 12158.343177s info: Table 916ded46-8f76-4297-bb11-9c012cc77f39: Deleted the table.
+2017-04-13T18:20:25.414839000 12158.385668s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/d09c72cb-12eb-4b75-8a57-8e7721a61d25
+2017-04-13T18:20:25.414848000 12158.385676s info: Table d09c72cb-12eb-4b75-8a57-8e7721a61d25: Deleted the table.
+2017-04-13T18:20:25.458743000 12158.429571s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/e382ff4b-d413-4dbd-a554-f2eb2f226142
+2017-04-13T18:20:25.458752000 12158.429580s info: Table e382ff4b-d413-4dbd-a554-f2eb2f226142: Deleted the table.
+2017-04-13T18:20:25.499038000 12158.469867s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/ecfb86d3-1b02-43aa-a5fa-f96196c27324
+2017-04-13T18:20:25.499049000 12158.469877s info: Table ecfb86d3-1b02-43aa-a5fa-f96196c27324: Deleted the table.
+2017-04-13T18:21:00.207781000 12193.179148s info: Table 706a5071-b633-4b25-84be-71c4c9cb3354: Starting a new Raft election for term 1.
+2017-04-13T18:21:00.207929000 12193.179297s info: Table 706a5071-b633-4b25-84be-71c4c9cb3354: Added replica on this server.
+2017-04-13T18:21:00.240104000 12193.211471s info: Table dc3a2663-2d1c-4d36-bef8-1d1f3875109b: Starting a new Raft election for term 1.
+2017-04-13T18:21:00.240190000 12193.211558s info: Table dc3a2663-2d1c-4d36-bef8-1d1f3875109b: Added replica on this server.
+2017-04-13T18:21:00.429190000 12193.400574s info: Table 92788f4e-ce60-49ef-9f71-bb4f26d93642: Starting a new Raft election for term 1.
+2017-04-13T18:21:00.429331000 12193.400715s info: Table 92788f4e-ce60-49ef-9f71-bb4f26d93642: Added replica on this server.
+2017-04-13T18:21:00.449394000 12193.420779s info: Table 706a5071-b633-4b25-84be-71c4c9cb3354: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:21:00.459679000 12193.431064s info: Table dc3a2663-2d1c-4d36-bef8-1d1f3875109b: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:21:00.459830000 12193.431216s info: Table 92788f4e-ce60-49ef-9f71-bb4f26d93642: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:32:12.022934000 12865.004677s info: Table 4e72e246-ea84-4ab6-90e0-2d57509f0ffd: Starting a new Raft election for term 1.
+2017-04-13T18:32:12.023151000 12865.004893s info: Table 4e72e246-ea84-4ab6-90e0-2d57509f0ffd: Added replica on this server.
+2017-04-13T18:32:12.034238000 12865.015980s info: Table d0067818-c62a-4f9d-92a3-2ab5f9d60ec0: Starting a new Raft election for term 1.
+2017-04-13T18:32:12.034389000 12865.016131s info: Table d0067818-c62a-4f9d-92a3-2ab5f9d60ec0: Added replica on this server.
+2017-04-13T18:32:12.042335000 12865.024077s info: Table 92523b73-0768-4d4d-a896-d77c576d252b: Starting a new Raft election for term 1.
+2017-04-13T18:32:12.042596000 12865.024338s info: Table 92523b73-0768-4d4d-a896-d77c576d252b: Added replica on this server.
+2017-04-13T18:32:12.064037000 12865.045780s info: Table 4e72e246-ea84-4ab6-90e0-2d57509f0ffd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:32:12.064122000 12865.045865s info: Table d0067818-c62a-4f9d-92a3-2ab5f9d60ec0: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:32:12.064175000 12865.045917s info: Table 92523b73-0768-4d4d-a896-d77c576d252b: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:32:58.901995000 12911.884465s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/4e72e246-ea84-4ab6-90e0-2d57509f0ffd
+2017-04-13T18:32:58.902007000 12911.884477s info: Table 4e72e246-ea84-4ab6-90e0-2d57509f0ffd: Deleted the table.
+2017-04-13T18:32:58.949162000 12911.931632s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/706a5071-b633-4b25-84be-71c4c9cb3354
+2017-04-13T18:32:58.949171000 12911.931640s info: Table 706a5071-b633-4b25-84be-71c4c9cb3354: Deleted the table.
+2017-04-13T18:32:58.991816000 12911.974302s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/92523b73-0768-4d4d-a896-d77c576d252b
+2017-04-13T18:32:58.991827000 12911.974313s info: Table 92523b73-0768-4d4d-a896-d77c576d252b: Deleted the table.
+2017-04-13T18:32:59.033715000 12912.016202s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/92788f4e-ce60-49ef-9f71-bb4f26d93642
+2017-04-13T18:32:59.033725000 12912.016211s info: Table 92788f4e-ce60-49ef-9f71-bb4f26d93642: Deleted the table.
+2017-04-13T18:32:59.076130000 12912.058617s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/d0067818-c62a-4f9d-92a3-2ab5f9d60ec0
+2017-04-13T18:32:59.076139000 12912.058625s info: Table d0067818-c62a-4f9d-92a3-2ab5f9d60ec0: Deleted the table.
+2017-04-13T18:32:59.117477000 12912.099963s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/dc3a2663-2d1c-4d36-bef8-1d1f3875109b
+2017-04-13T18:32:59.117487000 12912.099973s info: Table dc3a2663-2d1c-4d36-bef8-1d1f3875109b: Deleted the table.
+2017-04-13T18:33:13.077251000 12926.059957s info: Table 36abcb35-d824-44c0-a56c-057efb9a6a7e: Starting a new Raft election for term 1.
+2017-04-13T18:33:13.077328000 12926.060035s info: Table 36abcb35-d824-44c0-a56c-057efb9a6a7e: Added replica on this server.
+2017-04-13T18:33:13.093231000 12926.075937s info: Table a9e43e38-76de-47da-a6c7-7e42f1527699: Starting a new Raft election for term 1.
+2017-04-13T18:33:13.093376000 12926.076082s info: Table a9e43e38-76de-47da-a6c7-7e42f1527699: Added replica on this server.
+2017-04-13T18:33:13.111484000 12926.094191s info: Table 24309f4e-775f-4423-a535-a96d56bc0078: Starting a new Raft election for term 1.
+2017-04-13T18:33:13.111580000 12926.094286s info: Table 24309f4e-775f-4423-a535-a96d56bc0078: Added replica on this server.
+2017-04-13T18:33:13.131901000 12926.114609s info: Table 36abcb35-d824-44c0-a56c-057efb9a6a7e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:33:13.141874000 12926.124581s info: Table a9e43e38-76de-47da-a6c7-7e42f1527699: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:33:13.141967000 12926.124674s info: Table 24309f4e-775f-4423-a535-a96d56bc0078: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:33:53.210405000 12966.193737s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/24309f4e-775f-4423-a535-a96d56bc0078
+2017-04-13T18:33:53.210417000 12966.193748s info: Table 24309f4e-775f-4423-a535-a96d56bc0078: Deleted the table.
+2017-04-13T18:33:53.275909000 12966.259240s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/36abcb35-d824-44c0-a56c-057efb9a6a7e
+2017-04-13T18:33:53.275918000 12966.259249s info: Table 36abcb35-d824-44c0-a56c-057efb9a6a7e: Deleted the table.
+2017-04-13T18:33:53.320517000 12966.303849s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/a9e43e38-76de-47da-a6c7-7e42f1527699
+2017-04-13T18:33:53.320526000 12966.303857s info: Table a9e43e38-76de-47da-a6c7-7e42f1527699: Deleted the table.
+2017-04-13T18:33:57.659215000 12970.642614s info: Table d09f1bae-46df-498e-84b0-dc3ad229730d: Starting a new Raft election for term 1.
+2017-04-13T18:33:57.659365000 12970.642765s info: Table d09f1bae-46df-498e-84b0-dc3ad229730d: Added replica on this server.
+2017-04-13T18:33:57.688453000 12970.671852s info: Table f3a42cb7-6261-4782-abd9-0f83db4a9e6a: Starting a new Raft election for term 1.
+2017-04-13T18:33:57.689736000 12970.673136s info: Table f3a42cb7-6261-4782-abd9-0f83db4a9e6a: Added replica on this server.
+2017-04-13T18:33:57.697737000 12970.681137s info: Table 7c0eee53-fa57-4dae-b446-8837e1c2fe88: Starting a new Raft election for term 1.
+2017-04-13T18:33:57.697938000 12970.681338s info: Table 7c0eee53-fa57-4dae-b446-8837e1c2fe88: Added replica on this server.
+2017-04-13T18:33:57.722963000 12970.706362s info: Table d09f1bae-46df-498e-84b0-dc3ad229730d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:33:57.733464000 12970.716864s info: Table f3a42cb7-6261-4782-abd9-0f83db4a9e6a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:33:57.733526000 12970.716926s info: Table 7c0eee53-fa57-4dae-b446-8837e1c2fe88: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:34:01.562451000 12974.545918s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/7c0eee53-fa57-4dae-b446-8837e1c2fe88
+2017-04-13T18:34:01.562461000 12974.545927s info: Table 7c0eee53-fa57-4dae-b446-8837e1c2fe88: Deleted the table.
+2017-04-13T18:34:01.604162000 12974.587629s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/d09f1bae-46df-498e-84b0-dc3ad229730d
+2017-04-13T18:34:01.604174000 12974.587640s info: Table d09f1bae-46df-498e-84b0-dc3ad229730d: Deleted the table.
+2017-04-13T18:34:01.646957000 12974.630424s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/f3a42cb7-6261-4782-abd9-0f83db4a9e6a
+2017-04-13T18:34:01.646966000 12974.630432s info: Table f3a42cb7-6261-4782-abd9-0f83db4a9e6a: Deleted the table.
+2017-04-13T18:34:20.110790000 12993.094562s info: Table 22b8267c-ea59-4eb2-b68a-387199d8761f: Starting a new Raft election for term 1.
+2017-04-13T18:34:20.110867000 12993.094638s info: Table 22b8267c-ea59-4eb2-b68a-387199d8761f: Added replica on this server.
+2017-04-13T18:34:20.378552000 12993.362324s info: Table 6ed53e82-a782-43bc-ae1e-5751586e81cf: Starting a new Raft election for term 1.
+2017-04-13T18:34:20.378726000 12993.362498s info: Table 6ed53e82-a782-43bc-ae1e-5751586e81cf: Added replica on this server.
+2017-04-13T18:34:20.389096000 12993.372868s info: Table be1b89a6-dc9f-4fa8-86c8-2b587f0cb5bd: Starting a new Raft election for term 1.
+2017-04-13T18:34:20.389186000 12993.372957s info: Table be1b89a6-dc9f-4fa8-86c8-2b587f0cb5bd: Added replica on this server.
+2017-04-13T18:34:20.408153000 12993.391924s info: Table 22b8267c-ea59-4eb2-b68a-387199d8761f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:34:20.408199000 12993.391971s info: Table 6ed53e82-a782-43bc-ae1e-5751586e81cf: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-13T18:34:20.418801000 12993.402573s info: Table be1b89a6-dc9f-4fa8-86c8-2b587f0cb5bd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:10:22.924727000 20209.154481s info: Table 1066c290-2f53-446d-9376-ed4e5dab695d: Starting a new Raft election for term 1.
+2017-04-14T07:10:22.925197000 20209.154950s info: Table 1066c290-2f53-446d-9376-ed4e5dab695d: Added replica on this server.
+2017-04-14T07:10:22.957464000 20209.187216s info: Table 179b518f-4259-4d6e-b473-e24557be1a73: Starting a new Raft election for term 1.
+2017-04-14T07:10:22.957801000 20209.187553s info: Table 179b518f-4259-4d6e-b473-e24557be1a73: Added replica on this server.
+2017-04-14T07:10:22.979138000 20209.208890s info: Table 1066c290-2f53-446d-9376-ed4e5dab695d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:10:22.979226000 20209.208979s info: Table 179b518f-4259-4d6e-b473-e24557be1a73: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:10:54.379323000 20240.609370s info: Table 9e54ff13-cac5-4090-b91d-a015fac06c7a: Starting a new Raft election for term 1.
+2017-04-14T07:10:54.379703000 20240.609747s info: Table 9e54ff13-cac5-4090-b91d-a015fac06c7a: Added replica on this server.
+2017-04-14T07:10:54.413644000 20240.643688s info: Table 9e54ff13-cac5-4090-b91d-a015fac06c7a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:19:48.087464000 20774.322386s info: Table 29434ac7-26aa-46ae-b142-86798c4b6edd: Starting a new Raft election for term 1.
+2017-04-14T07:19:48.087968000 20774.322889s info: Table 29434ac7-26aa-46ae-b142-86798c4b6edd: Added replica on this server.
+2017-04-14T07:19:48.109585000 20774.344507s info: Table f4424c08-4547-4bbd-a299-67fb2d6a0906: Starting a new Raft election for term 1.
+2017-04-14T07:19:48.109985000 20774.344906s info: Table f4424c08-4547-4bbd-a299-67fb2d6a0906: Added replica on this server.
+2017-04-14T07:19:48.130298000 20774.365220s info: Table 512bcc24-81ee-4583-b8a2-ec52b33a13da: Starting a new Raft election for term 1.
+2017-04-14T07:19:48.130695000 20774.365616s info: Table 512bcc24-81ee-4583-b8a2-ec52b33a13da: Added replica on this server.
+2017-04-14T07:19:48.149520000 20774.384442s info: Table 29434ac7-26aa-46ae-b142-86798c4b6edd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:19:48.149583000 20774.384504s info: Table f4424c08-4547-4bbd-a299-67fb2d6a0906: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T07:19:48.149655000 20774.384576s info: Table 512bcc24-81ee-4583-b8a2-ec52b33a13da: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T08:47:47.789914000 25837.682800s info: Table 961366b1-5a79-43df-921a-4fb77adbd6d1: Starting a new Raft election for term 1.
+2017-04-14T08:47:47.790201000 25837.683087s info: Table 961366b1-5a79-43df-921a-4fb77adbd6d1: Added replica on this server.
+2017-04-14T08:47:47.811161000 25837.704048s info: Table 961366b1-5a79-43df-921a-4fb77adbd6d1: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T08:48:03.924203000 25853.817235s info: Table d9e2a421-d153-4354-9b16-730abee7777d: Starting a new Raft election for term 1.
+2017-04-14T08:48:03.924369000 25853.817401s info: Table d9e2a421-d153-4354-9b16-730abee7777d: Added replica on this server.
+2017-04-14T08:48:03.947942000 25853.840974s info: Table d9e2a421-d153-4354-9b16-730abee7777d: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T08:49:54.063971000 25963.958007s info: Table da4dc298-d594-4df9-a029-aba049dffea6: Starting a new Raft election for term 1.
+2017-04-14T08:49:54.064165000 25963.958200s info: Table da4dc298-d594-4df9-a029-aba049dffea6: Added replica on this server.
+2017-04-14T08:49:54.083476000 25963.977511s info: Table da4dc298-d594-4df9-a029-aba049dffea6: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T08:55:51.134513000 26321.031815s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/29434ac7-26aa-46ae-b142-86798c4b6edd
+2017-04-14T08:55:51.134525000 26321.031827s info: Table 29434ac7-26aa-46ae-b142-86798c4b6edd: Deleted the table.
+2017-04-14T08:55:51.214583000 26321.111885s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/512bcc24-81ee-4583-b8a2-ec52b33a13da
+2017-04-14T08:55:51.214593000 26321.111894s info: Table 512bcc24-81ee-4583-b8a2-ec52b33a13da: Deleted the table.
+2017-04-14T08:55:51.263624000 26321.160925s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/961366b1-5a79-43df-921a-4fb77adbd6d1
+2017-04-14T08:55:51.263633000 26321.160934s info: Table 961366b1-5a79-43df-921a-4fb77adbd6d1: Deleted the table.
+2017-04-14T08:55:51.316070000 26321.213372s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/d9e2a421-d153-4354-9b16-730abee7777d
+2017-04-14T08:55:51.316080000 26321.213381s info: Table d9e2a421-d153-4354-9b16-730abee7777d: Deleted the table.
+2017-04-14T08:55:51.353788000 26321.251089s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/da4dc298-d594-4df9-a029-aba049dffea6
+2017-04-14T08:55:51.353796000 26321.251098s info: Table da4dc298-d594-4df9-a029-aba049dffea6: Deleted the table.
+2017-04-14T08:55:51.392195000 26321.289496s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/f4424c08-4547-4bbd-a299-67fb2d6a0906
+2017-04-14T08:55:51.392205000 26321.289506s info: Table f4424c08-4547-4bbd-a299-67fb2d6a0906: Deleted the table.
+2017-04-14T08:56:05.734781000 26335.632211s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/1066c290-2f53-446d-9376-ed4e5dab695d
+2017-04-14T08:56:05.734791000 26335.632221s info: Table 1066c290-2f53-446d-9376-ed4e5dab695d: Deleted the table.
+2017-04-14T08:56:05.781075000 26335.678505s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/179b518f-4259-4d6e-b473-e24557be1a73
+2017-04-14T08:56:05.781085000 26335.678514s info: Table 179b518f-4259-4d6e-b473-e24557be1a73: Deleted the table.
+2017-04-14T08:56:05.844681000 26335.742111s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/22b8267c-ea59-4eb2-b68a-387199d8761f
+2017-04-14T08:56:05.844698000 26335.742128s info: Table 22b8267c-ea59-4eb2-b68a-387199d8761f: Deleted the table.
+2017-04-14T08:56:05.909144000 26335.806574s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/6ed53e82-a782-43bc-ae1e-5751586e81cf
+2017-04-14T08:56:05.909155000 26335.806584s info: Table 6ed53e82-a782-43bc-ae1e-5751586e81cf: Deleted the table.
+2017-04-14T08:56:05.955073000 26335.852503s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/9e54ff13-cac5-4090-b91d-a015fac06c7a
+2017-04-14T08:56:05.955082000 26335.852511s info: Table 9e54ff13-cac5-4090-b91d-a015fac06c7a: Deleted the table.
+2017-04-14T08:56:06.012109000 26335.909556s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/be1b89a6-dc9f-4fa8-86c8-2b587f0cb5bd
+2017-04-14T08:56:06.012119000 26335.909566s info: Table be1b89a6-dc9f-4fa8-86c8-2b587f0cb5bd: Deleted the table.
+2017-04-14T09:01:38.239970000 26668.140429s info: Table 3d8e0527-61f1-49d7-b5c6-7e66ceb57fc5: Starting a new Raft election for term 1.
+2017-04-14T09:01:38.240225000 26668.140683s info: Table 3d8e0527-61f1-49d7-b5c6-7e66ceb57fc5: Added replica on this server.
+2017-04-14T09:01:38.250114000 26668.150572s info: Table cb3560a9-6deb-45da-ae74-fb640df545ed: Starting a new Raft election for term 1.
+2017-04-14T09:01:38.250347000 26668.150806s info: Table cb3560a9-6deb-45da-ae74-fb640df545ed: Added replica on this server.
+2017-04-14T09:01:38.284184000 26668.184643s info: Table 780812a7-e1e4-4d3f-a1bc-af51d746ee8f: Starting a new Raft election for term 1.
+2017-04-14T09:01:38.284400000 26668.184859s info: Table 780812a7-e1e4-4d3f-a1bc-af51d746ee8f: Added replica on this server.
+2017-04-14T09:01:38.296326000 26668.196785s info: Table 7ef21a82-5b30-4db9-b6b3-0998eedcf808: Starting a new Raft election for term 1.
+2017-04-14T09:01:38.296543000 26668.197001s info: Table 7ef21a82-5b30-4db9-b6b3-0998eedcf808: Added replica on this server.
+2017-04-14T09:01:38.320065000 26668.220524s info: Table 3d8e0527-61f1-49d7-b5c6-7e66ceb57fc5: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T09:01:38.320216000 26668.220675s info: Table cb3560a9-6deb-45da-ae74-fb640df545ed: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T09:01:38.331342000 26668.231801s info: Table 780812a7-e1e4-4d3f-a1bc-af51d746ee8f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T09:01:38.331523000 26668.231981s info: Table 7ef21a82-5b30-4db9-b6b3-0998eedcf808: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T09:02:37.308256000 26727.209261s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/3d8e0527-61f1-49d7-b5c6-7e66ceb57fc5
+2017-04-14T09:02:37.308266000 26727.209271s info: Table 3d8e0527-61f1-49d7-b5c6-7e66ceb57fc5: Deleted the table.
+2017-04-14T09:02:37.363347000 26727.264352s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/780812a7-e1e4-4d3f-a1bc-af51d746ee8f
+2017-04-14T09:02:37.363358000 26727.264363s info: Table 780812a7-e1e4-4d3f-a1bc-af51d746ee8f: Deleted the table.
+2017-04-14T09:02:37.416133000 26727.317138s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/7ef21a82-5b30-4db9-b6b3-0998eedcf808
+2017-04-14T09:02:37.416142000 26727.317147s info: Table 7ef21a82-5b30-4db9-b6b3-0998eedcf808: Deleted the table.
+2017-04-14T09:02:37.462946000 26727.363951s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/cb3560a9-6deb-45da-ae74-fb640df545ed
+2017-04-14T09:02:37.462955000 26727.363960s info: Table cb3560a9-6deb-45da-ae74-fb640df545ed: Deleted the table.
+2017-04-14T10:58:47.213504000 30828.693699s info: Table 6adcc1d8-779c-4841-b773-836fafa50696: Starting a new Raft election for term 1.
+2017-04-14T10:58:47.213866000 30828.694061s info: Table 6adcc1d8-779c-4841-b773-836fafa50696: Added replica on this server.
+2017-04-14T10:58:47.261553000 30828.741747s info: Table e1d468e9-78a2-4a49-82d4-3628332196ba: Starting a new Raft election for term 1.
+2017-04-14T10:58:47.261707000 30828.741902s info: Table e1d468e9-78a2-4a49-82d4-3628332196ba: Added replica on this server.
+2017-04-14T10:58:47.268083000 30828.748278s info: Table 99af0611-4df5-4813-81d4-cde3ee45c3b7: Starting a new Raft election for term 1.
+2017-04-14T10:58:47.268426000 30828.748620s info: Table 99af0611-4df5-4813-81d4-cde3ee45c3b7: Added replica on this server.
+2017-04-14T10:58:47.280405000 30828.760600s info: Table 4206c986-f9a4-4d05-aaab-9f10b354500f: Starting a new Raft election for term 1.
+2017-04-14T10:58:47.280631000 30828.760825s info: Table 4206c986-f9a4-4d05-aaab-9f10b354500f: Added replica on this server.
+2017-04-14T10:58:47.307915000 30828.788110s info: Table 6adcc1d8-779c-4841-b773-836fafa50696: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T10:58:47.308072000 30828.788266s info: Table e1d468e9-78a2-4a49-82d4-3628332196ba: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T10:58:47.318699000 30828.798894s info: Table 99af0611-4df5-4813-81d4-cde3ee45c3b7: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T10:58:47.318875000 30828.799069s info: Table 4206c986-f9a4-4d05-aaab-9f10b354500f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:07:21.281242000 31342.766228s info: Table 0561b46d-4e7b-4818-b586-028d3fe9d6e3: Starting a new Raft election for term 1.
+2017-04-14T11:07:21.281536000 31342.766522s info: Table 0561b46d-4e7b-4818-b586-028d3fe9d6e3: Added replica on this server.
+2017-04-14T11:07:21.308229000 31342.793216s info: Table 0561b46d-4e7b-4818-b586-028d3fe9d6e3: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:11:22.159161000 31582.394205s info: Table e80a65aa-10ed-413d-8e7f-f1fdbcfbbd15: Starting a new Raft election for term 1.
+2017-04-14T11:11:22.159346000 31582.394391s info: Table e80a65aa-10ed-413d-8e7f-f1fdbcfbbd15: Added replica on this server.
+2017-04-14T11:11:22.169426000 31582.404470s info: Table 115ed22a-b8b0-46d4-9f13-0118e9dbd31c: Starting a new Raft election for term 1.
+2017-04-14T11:11:22.169614000 31582.404659s info: Table 115ed22a-b8b0-46d4-9f13-0118e9dbd31c: Added replica on this server.
+2017-04-14T11:11:22.186632000 31582.421677s info: Table d560b3fd-4a7b-4896-b025-ba83b5de8cea: Starting a new Raft election for term 1.
+2017-04-14T11:11:22.186799000 31582.421844s info: Table d560b3fd-4a7b-4896-b025-ba83b5de8cea: Added replica on this server.
+2017-04-14T11:11:22.207209000 31582.442254s info: Table e80a65aa-10ed-413d-8e7f-f1fdbcfbbd15: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:11:22.217488000 31582.452533s info: Table 115ed22a-b8b0-46d4-9f13-0118e9dbd31c: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:11:22.217614000 31582.452658s info: Table d560b3fd-4a7b-4896-b025-ba83b5de8cea: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:14:19.540629000 31759.777368s info: Table 837c4a2d-59a2-4c16-8f43-8d6622a88b2b: Starting a new Raft election for term 1.
+2017-04-14T11:14:19.540832000 31759.777571s info: Table 837c4a2d-59a2-4c16-8f43-8d6622a88b2b: Added replica on this server.
+2017-04-14T11:14:19.561059000 31759.797798s info: Table 837c4a2d-59a2-4c16-8f43-8d6622a88b2b: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:14:30.430164000 31770.667013s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/115ed22a-b8b0-46d4-9f13-0118e9dbd31c
+2017-04-14T11:14:30.430175000 31770.667023s info: Table 115ed22a-b8b0-46d4-9f13-0118e9dbd31c: Deleted the table.
+2017-04-14T11:14:30.480540000 31770.717388s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/837c4a2d-59a2-4c16-8f43-8d6622a88b2b
+2017-04-14T11:14:30.480550000 31770.717398s info: Table 837c4a2d-59a2-4c16-8f43-8d6622a88b2b: Deleted the table.
+2017-04-14T11:14:30.524991000 31770.761839s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/d560b3fd-4a7b-4896-b025-ba83b5de8cea
+2017-04-14T11:14:30.525000000 31770.761848s info: Table d560b3fd-4a7b-4896-b025-ba83b5de8cea: Deleted the table.
+2017-04-14T11:14:30.566810000 31770.803659s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/e80a65aa-10ed-413d-8e7f-f1fdbcfbbd15
+2017-04-14T11:14:30.566820000 31770.803668s info: Table e80a65aa-10ed-413d-8e7f-f1fdbcfbbd15: Deleted the table.
+2017-04-14T11:14:35.450866000 31775.687770s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/0561b46d-4e7b-4818-b586-028d3fe9d6e3
+2017-04-14T11:14:35.450881000 31775.687784s info: Table 0561b46d-4e7b-4818-b586-028d3fe9d6e3: Deleted the table.
+2017-04-14T11:14:35.500811000 31775.737714s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/4206c986-f9a4-4d05-aaab-9f10b354500f
+2017-04-14T11:14:35.500819000 31775.737722s info: Table 4206c986-f9a4-4d05-aaab-9f10b354500f: Deleted the table.
+2017-04-14T11:14:35.544327000 31775.781231s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/6adcc1d8-779c-4841-b773-836fafa50696
+2017-04-14T11:14:35.544337000 31775.781240s info: Table 6adcc1d8-779c-4841-b773-836fafa50696: Deleted the table.
+2017-04-14T11:14:35.592816000 31775.829719s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/99af0611-4df5-4813-81d4-cde3ee45c3b7
+2017-04-14T11:14:35.592828000 31775.829731s info: Table 99af0611-4df5-4813-81d4-cde3ee45c3b7: Deleted the table.
+2017-04-14T11:14:35.640133000 31775.877036s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/e1d468e9-78a2-4a49-82d4-3628332196ba
+2017-04-14T11:14:35.640142000 31775.877045s info: Table e1d468e9-78a2-4a49-82d4-3628332196ba: Deleted the table.
+2017-04-14T11:14:46.406702000 31786.643714s info: Table dc389d74-cf6d-4e39-a9e4-a8d6e05e5f88: Starting a new Raft election for term 1.
+2017-04-14T11:14:46.406853000 31786.643866s info: Table dc389d74-cf6d-4e39-a9e4-a8d6e05e5f88: Added replica on this server.
+2017-04-14T11:14:46.445794000 31786.682806s info: Table ab736444-f10e-41d0-a1b9-44558f022e64: Starting a new Raft election for term 1.
+2017-04-14T11:14:46.445950000 31786.682963s info: Table ab736444-f10e-41d0-a1b9-44558f022e64: Added replica on this server.
+2017-04-14T11:14:46.456617000 31786.693629s info: Table 43465867-c906-4212-8c66-a51c0f845f5f: Starting a new Raft election for term 1.
+2017-04-14T11:14:46.456769000 31786.693781s info: Table 43465867-c906-4212-8c66-a51c0f845f5f: Added replica on this server.
+2017-04-14T11:14:46.468640000 31786.705653s info: Table 442cc70c-309d-419d-be4b-3fd72d3161dc: Starting a new Raft election for term 1.
+2017-04-14T11:14:46.468800000 31786.705813s info: Table 442cc70c-309d-419d-be4b-3fd72d3161dc: Added replica on this server.
+2017-04-14T11:14:46.491241000 31786.728254s info: Table dc389d74-cf6d-4e39-a9e4-a8d6e05e5f88: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:14:46.491304000 31786.728316s info: Table ab736444-f10e-41d0-a1b9-44558f022e64: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:14:46.501762000 31786.738775s info: Table 43465867-c906-4212-8c66-a51c0f845f5f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:14:46.501882000 31786.738895s info: Table 442cc70c-309d-419d-be4b-3fd72d3161dc: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:15:07.989164000 31808.226378s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/43465867-c906-4212-8c66-a51c0f845f5f
+2017-04-14T11:15:07.989173000 31808.226386s info: Table 43465867-c906-4212-8c66-a51c0f845f5f: Deleted the table.
+2017-04-14T11:15:08.044473000 31808.281686s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/442cc70c-309d-419d-be4b-3fd72d3161dc
+2017-04-14T11:15:08.044482000 31808.281695s info: Table 442cc70c-309d-419d-be4b-3fd72d3161dc: Deleted the table.
+2017-04-14T11:15:08.088613000 31808.325826s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/ab736444-f10e-41d0-a1b9-44558f022e64
+2017-04-14T11:15:08.088622000 31808.325835s info: Table ab736444-f10e-41d0-a1b9-44558f022e64: Deleted the table.
+2017-04-14T11:15:08.127691000 31808.364904s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/dc389d74-cf6d-4e39-a9e4-a8d6e05e5f88
+2017-04-14T11:15:08.127700000 31808.364913s info: Table dc389d74-cf6d-4e39-a9e4-a8d6e05e5f88: Deleted the table.
+2017-04-14T11:15:11.632811000 31811.870061s info: Table 2a692cb1-5e84-4da3-b56e-2ccab1af7746: Starting a new Raft election for term 1.
+2017-04-14T11:15:11.632965000 31811.870214s info: Table 2a692cb1-5e84-4da3-b56e-2ccab1af7746: Added replica on this server.
+2017-04-14T11:15:11.655092000 31811.892341s info: Table 468caa3b-b54c-460d-b042-e68fc2bd8d8e: Starting a new Raft election for term 1.
+2017-04-14T11:15:11.655252000 31811.892501s info: Table 468caa3b-b54c-460d-b042-e68fc2bd8d8e: Added replica on this server.
+2017-04-14T11:15:11.711802000 31811.949052s info: Table af5f3e4e-daf9-4410-92fa-f1992fe85e4c: Starting a new Raft election for term 1.
+2017-04-14T11:15:11.711968000 31811.949217s info: Table af5f3e4e-daf9-4410-92fa-f1992fe85e4c: Added replica on this server.
+2017-04-14T11:15:11.719292000 31811.956542s info: Table 28f7fe71-75cd-4e9c-ab85-5b10113d8d7a: Starting a new Raft election for term 1.
+2017-04-14T11:15:11.719390000 31811.956639s info: Table 28f7fe71-75cd-4e9c-ab85-5b10113d8d7a: Added replica on this server.
+2017-04-14T11:15:11.740873000 31811.978123s info: Table 2a692cb1-5e84-4da3-b56e-2ccab1af7746: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:15:11.754430000 31811.991679s info: Table 468caa3b-b54c-460d-b042-e68fc2bd8d8e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:15:11.754544000 31811.991794s info: Table af5f3e4e-daf9-4410-92fa-f1992fe85e4c: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:15:11.754628000 31811.991877s info: Table 28f7fe71-75cd-4e9c-ab85-5b10113d8d7a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T11:19:54.301214000 32094.541161s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/28f7fe71-75cd-4e9c-ab85-5b10113d8d7a
+2017-04-14T11:19:54.301224000 32094.541171s info: Table 28f7fe71-75cd-4e9c-ab85-5b10113d8d7a: Deleted the table.
+2017-04-14T11:19:54.371157000 32094.611123s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/2a692cb1-5e84-4da3-b56e-2ccab1af7746
+2017-04-14T11:19:54.371165000 32094.611131s info: Table 2a692cb1-5e84-4da3-b56e-2ccab1af7746: Deleted the table.
+2017-04-14T11:19:54.410126000 32094.650091s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/468caa3b-b54c-460d-b042-e68fc2bd8d8e
+2017-04-14T11:19:54.410137000 32094.650102s info: Table 468caa3b-b54c-460d-b042-e68fc2bd8d8e: Deleted the table.
+2017-04-14T11:19:54.450555000 32094.690521s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/af5f3e4e-daf9-4410-92fa-f1992fe85e4c
+2017-04-14T11:19:54.450564000 32094.690529s info: Table af5f3e4e-daf9-4410-92fa-f1992fe85e4c: Deleted the table.
+2017-04-14T11:53:40.171522000 34120.430864s info: Table 0dba39ef-48ec-45f1-89e5-7c3187364dc1: Starting a new Raft election for term 1.
+2017-04-14T11:53:40.171921000 34120.431263s info: Table 0dba39ef-48ec-45f1-89e5-7c3187364dc1: Added replica on this server.
+2017-04-14T11:53:40.192489000 34120.451831s info: Table 0dba39ef-48ec-45f1-89e5-7c3187364dc1: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:06:14.027322000 34874.293899s info: Table 1ada9303-91ee-4804-89d8-70088aa78eb3: Starting a new Raft election for term 1.
+2017-04-14T12:06:14.027586000 34874.294164s info: Table 1ada9303-91ee-4804-89d8-70088aa78eb3: Added replica on this server.
+2017-04-14T12:06:14.060138000 34874.326715s info: Table 196171fe-17f7-4d1d-9e7f-0d2a30dfacfa: Starting a new Raft election for term 1.
+2017-04-14T12:06:14.060340000 34874.326917s info: Table 196171fe-17f7-4d1d-9e7f-0d2a30dfacfa: Added replica on this server.
+2017-04-14T12:06:14.082514000 34874.349092s info: Table 1ada9303-91ee-4804-89d8-70088aa78eb3: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:06:14.082606000 34874.349183s info: Table 196171fe-17f7-4d1d-9e7f-0d2a30dfacfa: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:07:05.441644000 34925.708714s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/0dba39ef-48ec-45f1-89e5-7c3187364dc1
+2017-04-14T12:07:05.441654000 34925.708723s info: Table 0dba39ef-48ec-45f1-89e5-7c3187364dc1: Deleted the table.
+2017-04-14T12:07:05.498617000 34925.765686s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/196171fe-17f7-4d1d-9e7f-0d2a30dfacfa
+2017-04-14T12:07:05.498626000 34925.765695s info: Table 196171fe-17f7-4d1d-9e7f-0d2a30dfacfa: Deleted the table.
+2017-04-14T12:07:05.535733000 34925.802803s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/1ada9303-91ee-4804-89d8-70088aa78eb3
+2017-04-14T12:07:05.535744000 34925.802814s info: Table 1ada9303-91ee-4804-89d8-70088aa78eb3: Deleted the table.
+2017-04-14T12:07:37.289929000 34957.557309s info: Table 9895bab6-9bbb-4aae-8e4d-19eab94c4948: Starting a new Raft election for term 1.
+2017-04-14T12:07:37.290078000 34957.557457s info: Table 9895bab6-9bbb-4aae-8e4d-19eab94c4948: Added replica on this server.
+2017-04-14T12:07:37.298854000 34957.566234s info: Table 0e92b20f-448e-40d1-babe-45755a8e7950: Starting a new Raft election for term 1.
+2017-04-14T12:07:37.299037000 34957.566417s info: Table 0e92b20f-448e-40d1-babe-45755a8e7950: Added replica on this server.
+2017-04-14T12:07:37.311426000 34957.578805s info: Table 7322fb9b-844a-4502-b550-b322a5a92b4a: Starting a new Raft election for term 1.
+2017-04-14T12:07:37.311503000 34957.578882s info: Table 7322fb9b-844a-4502-b550-b322a5a92b4a: Added replica on this server.
+2017-04-14T12:07:37.331354000 34957.598734s info: Table 9895bab6-9bbb-4aae-8e4d-19eab94c4948: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:07:37.341583000 34957.608963s info: Table 0e92b20f-448e-40d1-babe-45755a8e7950: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:07:37.341739000 34957.609119s info: Table 7322fb9b-844a-4502-b550-b322a5a92b4a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:07:59.291136000 34979.558735s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/0e92b20f-448e-40d1-babe-45755a8e7950
+2017-04-14T12:07:59.291145000 34979.558743s info: Table 0e92b20f-448e-40d1-babe-45755a8e7950: Deleted the table.
+2017-04-14T12:07:59.339814000 34979.607413s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/7322fb9b-844a-4502-b550-b322a5a92b4a
+2017-04-14T12:07:59.339824000 34979.607422s info: Table 7322fb9b-844a-4502-b550-b322a5a92b4a: Deleted the table.
+2017-04-14T12:07:59.379381000 34979.646979s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/9895bab6-9bbb-4aae-8e4d-19eab94c4948
+2017-04-14T12:07:59.379393000 34979.646991s info: Table 9895bab6-9bbb-4aae-8e4d-19eab94c4948: Deleted the table.
+2017-04-14T12:09:01.887158000 35042.155339s info: Table ac6c4dc1-871e-4841-8159-e1555aa77f4a: Starting a new Raft election for term 1.
+2017-04-14T12:09:01.887544000 35042.155725s info: Table ac6c4dc1-871e-4841-8159-e1555aa77f4a: Added replica on this server.
+2017-04-14T12:09:01.887627000 35042.155808s info: Table a4e0e95e-3f67-4d7a-ac76-be095c6e18cf: Starting a new Raft election for term 1.
+2017-04-14T12:09:01.887773000 35042.155954s info: Table a4e0e95e-3f67-4d7a-ac76-be095c6e18cf: Added replica on this server.
+2017-04-14T12:09:01.906924000 35042.175106s info: Table bc128d92-fd46-48c9-9754-a9d0f085df15: Starting a new Raft election for term 1.
+2017-04-14T12:09:01.907080000 35042.175262s info: Table bc128d92-fd46-48c9-9754-a9d0f085df15: Added replica on this server.
+2017-04-14T12:09:01.939828000 35042.208009s info: Table c6af0f74-a16a-45d5-a570-e68978fc6d83: Starting a new Raft election for term 1.
+2017-04-14T12:09:01.940032000 35042.208214s info: Table c6af0f74-a16a-45d5-a570-e68978fc6d83: Added replica on this server.
+2017-04-14T12:09:01.960216000 35042.228399s info: Table ac6c4dc1-871e-4841-8159-e1555aa77f4a: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:01.970689000 35042.238870s info: Table a4e0e95e-3f67-4d7a-ac76-be095c6e18cf: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:01.970767000 35042.238949s info: Table bc128d92-fd46-48c9-9754-a9d0f085df15: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:01.970869000 35042.239051s info: Table c6af0f74-a16a-45d5-a570-e68978fc6d83: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:48.888033000 35089.156671s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/a4e0e95e-3f67-4d7a-ac76-be095c6e18cf
+2017-04-14T12:09:48.888043000 35089.156680s info: Table a4e0e95e-3f67-4d7a-ac76-be095c6e18cf: Deleted the table.
+2017-04-14T12:09:48.956121000 35089.224759s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/ac6c4dc1-871e-4841-8159-e1555aa77f4a
+2017-04-14T12:09:48.956132000 35089.224769s info: Table ac6c4dc1-871e-4841-8159-e1555aa77f4a: Deleted the table.
+2017-04-14T12:09:48.998387000 35089.267024s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/bc128d92-fd46-48c9-9754-a9d0f085df15
+2017-04-14T12:09:48.998396000 35089.267033s info: Table bc128d92-fd46-48c9-9754-a9d0f085df15: Deleted the table.
+2017-04-14T12:09:49.045807000 35089.314444s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/c6af0f74-a16a-45d5-a570-e68978fc6d83
+2017-04-14T12:09:49.045817000 35089.314454s info: Table c6af0f74-a16a-45d5-a570-e68978fc6d83: Deleted the table.
+2017-04-14T12:09:52.914182000 35093.182856s info: Table 0c010ac1-bf63-4761-b15d-6c36c1240161: Starting a new Raft election for term 1.
+2017-04-14T12:09:52.914332000 35093.183006s info: Table 0c010ac1-bf63-4761-b15d-6c36c1240161: Added replica on this server.
+2017-04-14T12:09:52.921352000 35093.190027s info: Table 52b75894-38ba-4639-bd55-aeb23fe97ebf: Starting a new Raft election for term 1.
+2017-04-14T12:09:52.921505000 35093.190180s info: Table 52b75894-38ba-4639-bd55-aeb23fe97ebf: Added replica on this server.
+2017-04-14T12:09:52.947825000 35093.216500s info: Table 42918d6e-d156-4f8f-bbc4-4f12c3ecebdd: Starting a new Raft election for term 1.
+2017-04-14T12:09:52.948039000 35093.216713s info: Table 42918d6e-d156-4f8f-bbc4-4f12c3ecebdd: Added replica on this server.
+2017-04-14T12:09:52.958417000 35093.227092s info: Table 792c81df-ab31-4263-a2a5-f6319f9e48a7: Starting a new Raft election for term 1.
+2017-04-14T12:09:52.958555000 35093.227230s info: Table 792c81df-ab31-4263-a2a5-f6319f9e48a7: Added replica on this server.
+2017-04-14T12:09:52.978034000 35093.246708s info: Table 0c010ac1-bf63-4761-b15d-6c36c1240161: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:52.997198000 35093.265873s info: Table 52b75894-38ba-4639-bd55-aeb23fe97ebf: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:52.997300000 35093.265975s info: Table 42918d6e-d156-4f8f-bbc4-4f12c3ecebdd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T12:09:52.997385000 35093.266059s info: Table 792c81df-ab31-4263-a2a5-f6319f9e48a7: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T18:22:50.817692000 38663.008257s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/0c010ac1-bf63-4761-b15d-6c36c1240161
+2017-04-14T18:22:50.817705000 38663.008268s info: Table 0c010ac1-bf63-4761-b15d-6c36c1240161: Deleted the table.
+2017-04-14T18:22:50.893264000 38663.083827s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/42918d6e-d156-4f8f-bbc4-4f12c3ecebdd
+2017-04-14T18:22:50.893273000 38663.083837s info: Table 42918d6e-d156-4f8f-bbc4-4f12c3ecebdd: Deleted the table.
+2017-04-14T18:22:50.944106000 38663.134670s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/52b75894-38ba-4639-bd55-aeb23fe97ebf
+2017-04-14T18:22:50.944117000 38663.134680s info: Table 52b75894-38ba-4639-bd55-aeb23fe97ebf: Deleted the table.
+2017-04-14T18:22:50.994473000 38663.185037s notice: Removing file /Users/rockyhuber/Desktop/Coding/7.NodeAppPatterns/membership/rethinkdb_data/792c81df-ab31-4263-a2a5-f6319f9e48a7
+2017-04-14T18:22:50.994482000 38663.185045s info: Table 792c81df-ab31-4263-a2a5-f6319f9e48a7: Deleted the table.
+2017-04-14T18:23:30.990971000 38703.181834s info: Table 0c934c9c-976e-4ba1-beeb-7325767b7c7e: Starting a new Raft election for term 1.
+2017-04-14T18:23:30.991072000 38703.181935s info: Table 0c934c9c-976e-4ba1-beeb-7325767b7c7e: Added replica on this server.
+2017-04-14T18:23:31.009919000 38703.200782s info: Table a4890c49-367b-4204-9f98-54675d687bfd: Starting a new Raft election for term 1.
+2017-04-14T18:23:31.010069000 38703.200932s info: Table a4890c49-367b-4204-9f98-54675d687bfd: Added replica on this server.
+2017-04-14T18:23:31.018624000 38703.209488s info: Table 1409e235-aef6-4445-a933-be0896d90d79: Starting a new Raft election for term 1.
+2017-04-14T18:23:31.018727000 38703.209591s info: Table 1409e235-aef6-4445-a933-be0896d90d79: Added replica on this server.
+2017-04-14T18:23:31.031466000 38703.222330s info: Table 2b7e972f-20f5-40bd-a943-ff221637026e: Starting a new Raft election for term 1.
+2017-04-14T18:23:31.031655000 38703.222518s info: Table 2b7e972f-20f5-40bd-a943-ff221637026e: Added replica on this server.
+2017-04-14T18:23:31.051768000 38703.242632s info: Table 0c934c9c-976e-4ba1-beeb-7325767b7c7e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T18:23:31.051908000 38703.242772s info: Table a4890c49-367b-4204-9f98-54675d687bfd: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T18:23:31.061769000 38703.252633s info: Table 1409e235-aef6-4445-a933-be0896d90d79: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T18:23:31.061869000 38703.252733s info: Table 2b7e972f-20f5-40bd-a943-ff221637026e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:17:05.266426000 46136.238781s info: Table 94def95e-b9a9-48ed-bd2c-b2344c9e479f: Starting a new Raft election for term 1.
+2017-04-14T21:17:05.266890000 46136.239246s info: Table 94def95e-b9a9-48ed-bd2c-b2344c9e479f: Added replica on this server.
+2017-04-14T21:17:05.291308000 46136.263663s info: Table 94def95e-b9a9-48ed-bd2c-b2344c9e479f: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:10.065962000 46201.038816s info: Table 6d44c022-7e37-4434-af36-6a08ebaa86c1: Starting a new Raft election for term 1.
+2017-04-14T21:18:10.066867000 46201.039722s info: Table 6d44c022-7e37-4434-af36-6a08ebaa86c1: Added replica on this server.
+2017-04-14T21:18:10.104828000 46201.077682s info: Table c327cb26-56fe-42ad-aeff-dd4d060b09a3: Starting a new Raft election for term 1.
+2017-04-14T21:18:10.104988000 46201.077842s info: Table c327cb26-56fe-42ad-aeff-dd4d060b09a3: Added replica on this server.
+2017-04-14T21:18:10.118132000 46201.090986s info: Table 963df4cc-ebdf-4feb-a444-c4bff96126e9: Starting a new Raft election for term 1.
+2017-04-14T21:18:10.118381000 46201.091236s info: Table 963df4cc-ebdf-4feb-a444-c4bff96126e9: Added replica on this server.
+2017-04-14T21:18:10.139253000 46201.112108s info: Table 6d44c022-7e37-4434-af36-6a08ebaa86c1: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:10.150624000 46201.123478s info: Table c327cb26-56fe-42ad-aeff-dd4d060b09a3: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:10.150721000 46201.123576s info: Table 963df4cc-ebdf-4feb-a444-c4bff96126e9: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:40.920476000 46231.893574s info: Table f2942146-3ff4-47a8-9b96-2638c237aeba: Starting a new Raft election for term 1.
+2017-04-14T21:18:40.922440000 46231.895538s info: Table f2942146-3ff4-47a8-9b96-2638c237aeba: Added replica on this server.
+2017-04-14T21:18:40.957349000 46231.930446s info: Table 5b589dfc-126c-4261-85d0-d421f3f92c98: Starting a new Raft election for term 1.
+2017-04-14T21:18:40.957680000 46231.930778s info: Table 5b589dfc-126c-4261-85d0-d421f3f92c98: Added replica on this server.
+2017-04-14T21:18:40.993440000 46231.966538s info: Table a480ec58-2000-4363-9040-8bb6aa0d8a6e: Starting a new Raft election for term 1.
+2017-04-14T21:18:40.993711000 46231.966809s info: Table a480ec58-2000-4363-9040-8bb6aa0d8a6e: Added replica on this server.
+2017-04-14T21:18:41.032938000 46232.006036s info: Table 04ba6cb3-a381-4db6-92e7-ca9736623232: Starting a new Raft election for term 1.
+2017-04-14T21:18:41.033188000 46232.006285s info: Table 04ba6cb3-a381-4db6-92e7-ca9736623232: Added replica on this server.
+2017-04-14T21:18:41.054483000 46232.027581s info: Table f2942146-3ff4-47a8-9b96-2638c237aeba: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:41.075367000 46232.048465s info: Table 5b589dfc-126c-4261-85d0-d421f3f92c98: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:41.075530000 46232.048628s info: Table a480ec58-2000-4363-9040-8bb6aa0d8a6e: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-14T21:18:41.075573000 46232.048670s info: Table 04ba6cb3-a381-4db6-92e7-ca9736623232: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:00:29.135474000 49904.768562s info: Table b271d36e-ed09-42be-b921-cfec4e45f581: Starting a new Raft election for term 1.
+2017-04-15T21:00:29.137259000 49904.770345s info: Table b271d36e-ed09-42be-b921-cfec4e45f581: Added replica on this server.
+2017-04-15T21:00:29.146373000 49904.779458s info: Table 5d86ed5b-d55b-402b-a594-4d48d91030f4: Starting a new Raft election for term 1.
+2017-04-15T21:00:29.146572000 49904.779658s info: Table 5d86ed5b-d55b-402b-a594-4d48d91030f4: Added replica on this server.
+2017-04-15T21:00:29.155600000 49904.788686s info: Table 31dec192-3192-4735-b63d-8e4c715c38ce: Starting a new Raft election for term 1.
+2017-04-15T21:00:29.155907000 49904.788993s info: Table 31dec192-3192-4735-b63d-8e4c715c38ce: Added replica on this server.
+2017-04-15T21:00:29.176236000 49904.809322s info: Table b271d36e-ed09-42be-b921-cfec4e45f581: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:00:29.186409000 49904.819495s info: Table 5d86ed5b-d55b-402b-a594-4d48d91030f4: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:00:29.186589000 49904.819675s info: Table 31dec192-3192-4735-b63d-8e4c715c38ce: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:00:59.318526000 49934.951958s info: Table 1ce1827e-e0e7-4fab-b80c-dfb2bb215153: Starting a new Raft election for term 1.
+2017-04-15T21:00:59.318715000 49934.952147s info: Table 1ce1827e-e0e7-4fab-b80c-dfb2bb215153: Added replica on this server.
+2017-04-15T21:00:59.342758000 49934.976191s info: Table 1ce1827e-e0e7-4fab-b80c-dfb2bb215153: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:01:22.303083000 49957.936789s info: Table fd2713d2-b614-4314-af00-baae241910c9: Starting a new Raft election for term 1.
+2017-04-15T21:01:22.303183000 49957.936889s info: Table fd2713d2-b614-4314-af00-baae241910c9: Added replica on this server.
+2017-04-15T21:01:22.370322000 49958.004029s info: Table 5455bb1a-1381-4c9a-8d7b-fe1fce232d93: Starting a new Raft election for term 1.
+2017-04-15T21:01:22.370549000 49958.004255s info: Table 5455bb1a-1381-4c9a-8d7b-fe1fce232d93: Added replica on this server.
+2017-04-15T21:01:22.380907000 49958.014613s info: Table 4ca5b84b-3874-47f2-83f4-d5249a511856: Starting a new Raft election for term 1.
+2017-04-15T21:01:22.381158000 49958.014864s info: Table 4ca5b84b-3874-47f2-83f4-d5249a511856: Added replica on this server.
+2017-04-15T21:01:22.390431000 49958.024137s info: Table 35d5dc78-2262-4b29-965e-4800a2752b81: Starting a new Raft election for term 1.
+2017-04-15T21:01:22.390798000 49958.024504s info: Table 35d5dc78-2262-4b29-965e-4800a2752b81: Added replica on this server.
+2017-04-15T21:01:22.412524000 49958.046232s info: Table fd2713d2-b614-4314-af00-baae241910c9: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:01:22.412656000 49958.046362s info: Table 5455bb1a-1381-4c9a-8d7b-fe1fce232d93: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:01:22.422367000 49958.056074s info: Table 4ca5b84b-3874-47f2-83f4-d5249a511856: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:01:22.422497000 49958.056204s info: Table 35d5dc78-2262-4b29-965e-4800a2752b81: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:40.380993000 53216.052081s info: Table 01957a9d-ceac-45e1-b135-96bca84100d7: Starting a new Raft election for term 1.
+2017-04-15T21:55:40.381519000 53216.052607s info: Table 01957a9d-ceac-45e1-b135-96bca84100d7: Added replica on this server.
+2017-04-15T21:55:40.390906000 53216.061996s info: Table 4b307052-1049-4039-80b2-5f2c5e27b119: Starting a new Raft election for term 1.
+2017-04-15T21:55:40.391352000 53216.062441s info: Table 4b307052-1049-4039-80b2-5f2c5e27b119: Added replica on this server.
+2017-04-15T21:55:40.419984000 53216.091073s info: Table 37c39552-1fcc-4160-878c-82c5155a48d7: Starting a new Raft election for term 1.
+2017-04-15T21:55:40.420985000 53216.092073s info: Table 37c39552-1fcc-4160-878c-82c5155a48d7: Added replica on this server.
+2017-04-15T21:55:40.441136000 53216.112225s info: Table 01957a9d-ceac-45e1-b135-96bca84100d7: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:40.441305000 53216.112394s info: Table 4b307052-1049-4039-80b2-5f2c5e27b119: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:40.450986000 53216.122076s info: Table 37c39552-1fcc-4160-878c-82c5155a48d7: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:59.416645000 53235.087951s info: Table d6c10430-e40d-421a-ab01-d25637f4f6a0: Starting a new Raft election for term 1.
+2017-04-15T21:55:59.417562000 53235.088868s info: Table d6c10430-e40d-421a-ab01-d25637f4f6a0: Added replica on this server.
+2017-04-15T21:55:59.427136000 53235.098443s info: Table bc04a6c9-a1a4-47c2-aafd-abed42b4e4b0: Starting a new Raft election for term 1.
+2017-04-15T21:55:59.428137000 53235.099444s info: Table bc04a6c9-a1a4-47c2-aafd-abed42b4e4b0: Added replica on this server.
+2017-04-15T21:55:59.473528000 53235.144834s info: Table cc9cca9e-8fed-444b-978e-f21da68c28c5: Starting a new Raft election for term 1.
+2017-04-15T21:55:59.474000000 53235.145307s info: Table cc9cca9e-8fed-444b-978e-f21da68c28c5: Added replica on this server.
+2017-04-15T21:55:59.495864000 53235.167171s info: Table d6c10430-e40d-421a-ab01-d25637f4f6a0: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:59.495953000 53235.167259s info: Table bc04a6c9-a1a4-47c2-aafd-abed42b4e4b0: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-15T21:55:59.496022000 53235.167328s info: Table cc9cca9e-8fed-444b-978e-f21da68c28c5: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-16T05:41:56.613229000 54703.985223s info: Table e7e92a77-aa4a-4e75-a92a-68689ba05f4c: Starting a new Raft election for term 1.
+2017-04-16T05:41:56.613571000 54703.985563s info: Table e7e92a77-aa4a-4e75-a92a-68689ba05f4c: Added replica on this server.
+2017-04-16T05:41:56.624743000 54703.996735s info: Table 05339335-3724-4497-8be1-275ab519c2dc: Starting a new Raft election for term 1.
+2017-04-16T05:41:56.624976000 54703.996968s info: Table 05339335-3724-4497-8be1-275ab519c2dc: Added replica on this server.
+2017-04-16T05:41:56.645186000 54704.017178s info: Table e7e92a77-aa4a-4e75-a92a-68689ba05f4c: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-16T05:41:56.645244000 54704.017236s info: Table 05339335-3724-4497-8be1-275ab519c2dc: This server is Raft leader for term 1. Latest log index is 0.

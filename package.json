@@ -14,5 +14,8 @@
     "grunt-contrib-watch": "^1.0.0",
     "mocha": "^3.2.0",
     "should": "^11.2.1"
+  },
+  "dependencies": {
+    "rethinkdbdash": "^2.3.28"
   }
 }
